@@ -1,0 +1,23 @@
+{
+
+ "name": "speakeasy",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.4",
+    "nuxt": "^3.8.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.0",
+    "formidable": "^3.5.1",
+    "mammoth": "^1.6.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
