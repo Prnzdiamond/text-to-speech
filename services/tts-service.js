@@ -4,7 +4,7 @@
  */
 
 // Base URL for the OpenTTS server
-const OPENTTS_URL = "https://detailed-moscow-pets-vital.trycloudflare.com"
+const OPENTTS_URL = "https://byte-skill-soa-forums.trycloudflare.com"
 
 // TTS Engine types
 export const TTS_ENGINES = {
