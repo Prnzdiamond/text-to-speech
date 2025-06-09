@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: speakeasy-frontend
+    env: node
+    plan: free
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NUXT_PUBLIC_TTS_URL
+        value: https://your-opentts-api.onrender.com
