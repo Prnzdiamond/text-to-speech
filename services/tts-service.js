@@ -4,7 +4,7 @@
  */
 
 // Base URL for the OpenTTS server
-const OPENTTS_URL = "http://localhost:5500"
+const OPENTTS_URL = "https://acrobat-continuous-total-brochure.trycloudflare.com"
 
 // TTS Engine types
 export const TTS_ENGINES = {
