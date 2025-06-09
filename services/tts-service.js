@@ -4,7 +4,7 @@
  */
 
 // Base URL for the OpenTTS server
-const OPENTTS_URL = "https://acrobat-continuous-total-brochure.trycloudflare.com"
+const OPENTTS_URL = "https://massage-personnel-postposted-invention.trycloudflare.com "
 
 // TTS Engine types
 export const TTS_ENGINES = {
