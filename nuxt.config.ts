@@ -5,6 +5,9 @@ export default defineNuxtConfig({
   css: ["~/assets/css/main.css"],
   modules: ["@nuxtjs/tailwindcss"],
   nitro: {
+    // Configure port and host for Render deployment
+    port: process.env.PORT || 3000,
+    host: process.env.HOST || '0.0.0.0',
     experimental: {
       wasm: true,
     },
