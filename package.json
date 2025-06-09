@@ -10,11 +10,11 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "@nuxtjs/tailwindcss": "^6.8.4",
-    "nuxt": "^3.8.0"
+    "@nuxt/devtools": "latest"
   },
   "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.8.4",
+    "nuxt": "^3.8.0",
     "@supabase/supabase-js": "^2.38.0",
     "formidable": "^3.5.1",
     "mammoth": "^1.6.0",
